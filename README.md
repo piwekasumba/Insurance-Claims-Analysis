@@ -1,56 +1,63 @@
-# SQL Insurance Claims Analysis
+# • SQL Insurance Claims Analysis  
+### Business-Oriented Data Analysis Using PostgreSQL
+
+---
 
 ## Project Overview
 
-This project is part of my SQL portfolio focused on building practical data analysis skills using PostgreSQL.
+This project demonstrates SQL-based data analysis using a simulated insurance claims dataset.
 
-It explores a simulated insurance claims dataset to understand how SQL can be used to analyse business data and extract useful operational insights.
+It focuses on extracting business insights from structured claims data using PostgreSQL, with an emphasis on identifying patterns in cost, frequency, and claim categories.
 
-The focus is on using SQL to identify patterns in claims data such as cost trends, frequency, and claim categories.
+The goal is to simulate how data is used in real insurance operations to support decision-making and risk analysis.
 
 ---
 
 ## Business Context
 
-Insurance claims data is typically used to understand:
-- high-cost claim categories
-- frequent claim types
-- severity patterns
-- operational trends in claims processing
+Insurance companies rely on claims data to understand operational and financial risk patterns.
 
-This project simulates that type of analysis using SQL.
+This type of analysis is used to identify:
+- High-cost claim categories  
+- Frequent claim types  
+- Severity and risk distribution  
+- Operational trends in claims processing  
 
----
-
-## What I Worked On
-
-In this project, I used SQL to perform structured analysis tasks including:
-
-- analysing claim categories and costs  
-- identifying frequent claim types  
-- exploring severity patterns  
-- using aggregations and grouping for insights  
-- filtering and summarising claims data  
+This project simulates that analytical process using SQL.
 
 ---
 
-## How I Approached It
+## Analysis Focus Areas
 
-I focused on moving from raw data → structured analysis → meaningful insights.
+In this project, SQL was used to explore:
 
-The goal was not just to write queries, but to understand what the data means in a business context.
+- Claim category distribution  
+- Total cost per claim type  
+- Frequency of claims across categories  
+- Aggregated financial impact of claims  
+- Pattern identification in structured insurance data  
+
+---
+
+## Analytical Approach
+
+The analysis followed a structured workflow:
+
+**Raw Data → SQL Querying → Aggregation → Business Insight**
+
+The focus was not only on writing SQL queries, but also on understanding what the data represents in a business environment.
 
 ---
 
 ## Tools Used
 
 - PostgreSQL  
-- SQL  
-- Git & GitHub  
+- SQL (Data Analysis & Aggregation)  
+- Git & GitHub Version Control  
 
 ---
 
-## Example SQL Query
+## Example SQL Query (Business Insight)
 
 ```sql
 SELECT 
